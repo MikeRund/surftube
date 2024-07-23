@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SurfTube</title>
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css ">
+
+    <!-- Roboto font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header of Youtube-->
+    <header class="header">
+
+        <!-- Left section of header-->
+        <div class="left-header">
+            <img id="hamburger-menu" src="icons/icons8-hamburger-menu-30.png">
+            <div id="surftube-logo-container">
+                <img id="youtube-logo" src="icons/surf-logo.png">
+                <p>SurfTube</p>
+            </div>
+        </div>
+
+        <!-- Middle section of header-->
+        <div class="middle-header">
+            <input id="search-bar" type="text" placeholder="Search">
+            <button id="search-button">
+                <img id="search-icon" src="icons/icons8-search-64.png">
+                <div class="tooltip">Search</div>
+            </button>
+            <button id="voice-search-button">
+                <img id="voice-search-icon" src="icons/icons8-microphone-96.png">
+                <div class="tooltip">Voice search</div>
+            </button>
+        </div>
+
+        <!-- Right section of header-->
+        <div class="right-header">
+            <div id="upload-icon-div">
+                <img id="upload-icon" src="icons/icons8-create-video-96.png">
+                <div class="tooltip">Create</div>
+            </div>
+
+            <div id="notification-div">
+                <img id="notification-icon" src="icons/icons8-bell-96.png">
+                <div class="notification-count">3</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+
+            <div id="profile-div">
+                <img id="my-channel-icon" src="channel-imgs/me.jpg">
+                <div class="tooltip">Profile</div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- Side bar -->
+    <nav id="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/icons8-home.svg">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/icons8-compass-90.png">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/icons8-youtube (2).svg">
+            <div>Subscriptions</div>
+
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/icons8-youtube-shorts.svg">
+            <div>Shorts</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/icons8-youtube (2).svg">
+            <div>Library</div>
+        </div>
+    </nav>
+
+    <!-- Grid of video tiles-->
+    <main>
+        <section class="video-grid">
+
+
+            <div class="video-div">
+                <!-- 2 divs to make vertical layout-->
+                <div class="thumbnail-row">
+                    <a
+                        href="https://www.youtube.com/watch?v=rS9LRP6BpXo&list=PLkgbeP7uiWs5UCKAkgMt02ys3hsU60gKL&index=3">
+                        <img class="thumbnail" src="thumbnails/surf-1webp.webp">
+                    </a>
+                    <div class="video-time">11:41</div>
+                </div>
+
+                <div class="video-info-grid">
+
+                    <!-- Horizontal layouts-->
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@KalesBroccoli">
+                            <img class="profile-picture" src="channel-imgs/kale-brock.jpg">
+                        </a>
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            The Most Important Turn In Surfing | Detailed Lesson
+                        </p>
+                        <p class="video-author">
+                            Kale Brock
+                        </p>
+                        <p class="video-stats">
+                            115K views &middot; 3 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="video-div">
+                <!-- 2 divs to make vertical layout-->
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=-6rBq1tfGm0">
+                        <img class="thumbnail" src="thumbnails/too-old.webp">
+                    </a>
+                    <div class="video-time">11:28</div>
+                </div>
+
+                <div class="video-info-grid">
+
+                    <!-- Horizontal layouts-->
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@PetrHerold">
+                            <img class="profile-picture" src="channel-imgs/petr-herold.jpg">
+                        </a>
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            Learning to SURF in 90 Days </p>
+                        <p class="video-author">
+                            Petr Herold
+                        </p>
+                        <p class="video-stats">
+                            180K views &middot; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="video-div">
+                <!-- 2 divs to make vertical layout-->
+                <div class="thumbnail-row">
+                    <a
+                        href="https://www.youtube.com/watch?v=rS9LRP6BpXo&list=PLkgbeP7uiWs5UCKAkgMt02ys3hsU60gKL&index=3">
+                        <img class="thumbnail" src="thumbnails/surf-2.webp">
+                    </a>
+                    <div class="video-time">9:08</div>
+                </div>
+
+                <div class="video-info-grid">
+
+                    <!-- Horizontal layouts-->
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@KalesBroccoli">
+                            <img class="profile-picture" src="channel-imgs/kale-brock.jpg">
+                        </a>
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            HOW TO CATCH MORE WAVES IN CROWDED SURF (without annoying anybody)
+                        </p>
+                        <p class="video-author">
+                            Kale Brock
+                        </p>
+                        <p class="video-stats">
+                            182K views &middot; 3 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="video-div">
+                <!-- 2 divs to make vertical layout-->
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=67QNw2xQlsk">
+                        <img class="thumbnail" src="thumbnails/basics.webp">
+                    </a>
+                    <div class="video-time">10:06</div>
+                </div>
+
+                <div class="video-info-grid">
+
+                    <!-- Horizontal layouts-->
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@HowtoRip">
+                            <img class="profile-picture" src="channel-imgs/how-to-ripjpg.jpg">
+                        </a>
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            Learn How To Surf In 10 Minutes
+                        </p>
+                        <p class="video-author">
+                            How to Rip
+                        </p>
+                        <p class="video-stats">
+                            2.4M views &middot; 5 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="video-div">
+                <!-- 2 divs to make vertical layout-->
+                <div class="thumbnail-row">
+                    <a
+                        href="https://www.youtube.com/watch?v=pF0C0-Ph_Bs&list=PLkgbeP7uiWs5UCKAkgMt02ys3hsU60gKL&index=4">
+                        <img class="thumbnail" src="thumbnails/surf-3.webp">
+                    </a>
+                    <div class="video-time">13:12</div>
+                </div>
+
+                <div class="video-info-grid">
+
+                    <!-- Horizontal layouts-->
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@KalesBroccoli">
+                            <img class="profile-picture" src="channel-imgs/kale-brock.jpg">
+                        </a>
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            TOP 5 BIG IMPACT Tips For Beginner Surfers (for faster progression)
+                        </p>
+                        <p class="video-author">
+                            Kale Brock
+                        </p>
+                        <p class="video-stats">
+                            115K views &middot; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="video-div">
+                <!-- 2 divs to make vertical layout-->
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=0TBRKxtNWcQ">
+                        <img class="thumbnail" src="thumbnails/7-steps.webp">
+                    </a>
+                    <div class="video-time">13:30</div>
+                </div>
+
+                <div class="video-info-grid">
+
+                    <!-- Horizontal layouts-->
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@ombesurf">
+                            <img class="profile-picture" src="channel-imgs/ombe-surf.jpg">
+                        </a>
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            7 Easy Steps For Beginners To Learn How To Surf In Less Than 15 Minutes </p>
+                        <p class="video-author">
+                            Ombe Surf
+                        </p>
+                        <p class="video-stats">
+                            46K views &middot; 3 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="video-div">
+                <!-- 2 divs to make vertical layout-->
+                <div class="thumbnail-row">
+                    <a
+                        href="https://www.youtube.com/watch?v=MEeQWIc1hp0&list=PLkgbeP7uiWs5UCKAkgMt02ys3hsU60gKL&index=5">
+                        <img class="thumbnail" src="thumbnails/surf-4.webp">
+                    </a>
+                    <div class="video-time">9:11</div>
+                </div>
+
+                <div class="video-info-grid">
+
+                    <!-- Horizontal layouts-->
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@KalesBroccoli">
+                            <img class="profile-picture" src="channel-imgs/kale-brock.jpg">
+                        </a>
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            3 REASONS YOU SURF TOO SLOW ON A WAVE | Surfing Lesson
+                        </p>
+                        <p class="video-author">
+                            Kale Brock
+                        </p>
+                        <p class="video-stats">
+                            127K views &middot; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="video-div">
+                <!-- 2 divs to make vertical layout-->
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=CXyH30GgwbI">
+                        <img class="thumbnail" src="thumbnails/ultimate-lesson.webp">
+                    </a>
+                    <div class="video-time">40:49</div>
+                </div>
+
+                <div class="video-info-grid">
+
+                    <!-- Horizontal layouts-->
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@TheSurfersJourney">
+                            <img class="profile-picture" src="channel-imgs/surfers-journey.jpg">
+                        </a>
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            The Ultimate Surfing Lesson | Learn To Surf
+                        </p>
+                        <p class="video-author">
+                            The Surfers Journey
+                        </p>
+                        <p class="video-stats">
+                            71K views &middot; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="video-div">
+                <!-- 2 divs to make vertical layout-->
+                <div class="thumbnail-row">
+                    <a
+                        href="https://www.youtube.com/watch?v=W1JvoHNJvoU&list=PLkgbeP7uiWs5UCKAkgMt02ys3hsU60gKL&index=6">
+                        <img class="thumbnail" src="thumbnails/surf-5.webp">
+                    </a>
+                    <div class="video-time">9:22</div>
+                </div>
+
+                <div class="video-info-grid">
+
+                    <!-- Horizontal layouts-->
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@KalesBroccoli">
+                            <img class="profile-picture" src="channel-imgs/kale-brock.jpg">
+                        </a>
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            Master Your POP UP Technique With This Strategy | SURF LESSON
+                        </p>
+                        <p class="video-author">
+                            Kale Brock
+                        </p>
+                        <p class="video-stats">
+                            513K views &middot; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
